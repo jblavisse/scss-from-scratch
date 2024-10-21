@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid blue;
+  padding: 16px;
+  background-color: white;
+
+  &--secondary {
+    background-color: grey;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  &__description {
+    font-size: 1.25rem;
+  }
+
+  &__button {
+    padding: 8px 16px;
+    border-radius: 4px;
+
+    &--primary {
+      background-color: green;
+      color: white;
+    }
+
+    &--secondary {
+      background-color: lightgray;
+    }
+  }
+}

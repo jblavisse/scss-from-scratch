@@ -1,0 +1,88 @@
+.navbar {
+  background-color: #333;
+  padding: 16px;
+  color: white;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo-link {
+  display: inline-block;
+}
+.navbar__logo {
+  max-width: 150px;
+}
+.navbar__menu {
+  display: flex;
+  gap: 16px;
+}
+.navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+.navbar__item {
+  margin: 0;
+}
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navbar__link:hover {
+  text-decoration: underline;
+}
+.navbar__link--active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+.footer__text {
+  font-size: 0.875rem;
+}
+.footer__link {
+  color: lightgray;
+  text-decoration: none;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: 1px solid blue;
+  padding: 16px;
+  background-color: white;
+}
+.card--secondary {
+  background-color: grey;
+}
+.card__img {
+  width: 100%;
+  max-width: 300px;
+}
+.card__description {
+  font-size: 1.25rem;
+}
+.card__button {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.card__button--primary {
+  background-color: green;
+  color: white;
+}
+.card__button--secondary {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */

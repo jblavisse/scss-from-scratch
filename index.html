@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tuto BEM</title>
+    <meta
+      name="description"
+      content="Venez admirer cette explication de haute voltige! On mélange BEM, Emmet et SCSS comme des dingos"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar__container">
+        <a href="#" class="navbar__logo-link">
+          <img src="logo.png" alt="Logo de la marque" class="navbar__logo" />
+        </a>
+
+        <nav class="navbar__menu">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link navbar__link--active">Accueil</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">À propos</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Services</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1 class="main-title">Coucou!</h1>
+
+    <section>
+      <article class="card card--secondary">
+        <!-- <img src="" alt="" class="card__img" /> -->
+        <h2 class="card__title">Ma card secondaire</h2>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          hic!
+        </p>
+        <button class="card__button card__button--primary">Voir plus</button>
+      </article>
+
+      <article class="card">
+        <!-- <img src="" alt="" class="card__img" /> -->
+        <h2 class="card__title">Ma card principale</h2>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          hic!
+        </p>
+        <button class="card__button card__button--secondary">Voir plus</button>
+      </article>
+
+      <article class="card card--secondary">
+        <!-- <img src="" alt="" class="card__img" /> -->
+        <h2 class="card__title">Ma card secondaire</h2>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          hic!
+        </p>
+        <button class="card__button card__button--primary">Voir plus</button>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">
+        © 2024 - Mon site web BEM, tous droits réservés.
+      </p>
+      <a href="#" class="footer__link">Mentions légales</a>
+    </footer>
+  </body>
+</html>
